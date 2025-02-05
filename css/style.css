@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#nav-title {
+    font-size: 1.8em;
+    padding: 1.25em;
+    color: white;
+}
+
+#list-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1.25em;
+    font-size: 1.8em;
+}
+
+.list-items {
+    padding: 0.625em;
+}
+
+.nav-text {
+    color: white;
+}
